@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    color: white;
+}
+
+
+#container {
+    background-color: darkslategray;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+#flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    display: block;
+    width: 500px;
+    padding: 10px;
+}
+
+select {
+    width: 300px;
+    padding: 10px;
+}
+
+
+h1 {
+    color: burlywood;
+}
+
+.lab input, table, select {
+    margin: 0 auto;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid white;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
